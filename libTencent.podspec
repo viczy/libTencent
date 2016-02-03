@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
 
   s.source              = { :git=> "https://github.com/viczy/libTencent.git", :tag => s.version.to_s }
-  s.source_files        = 'libTencent/TencentOpenAPI.framework/**/*.{h,m}' 
-  s.public_header_files = 'libTencent/TencentOpenAPI.framework/Headers/**/*.h'
+  s.source_files        = 'libTencentSDK/TencentOpenAPI.framework/**/*.{h,m}' 
+  s.public_header_files = 'libTencentSDK/TencentOpenAPI.framework/Headers/**/*.h'
    s.libraries          = 'iconv', 'z', 'c++', 'sqlite3'
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
 end
