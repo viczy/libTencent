@@ -2,4 +2,4 @@
 QQ的第三方SDK
 
 ## pod
-pod 'libTencent', 'git@github.com:viczy/libTencent.git'
+  pod 'libTencent', :git => 'https://github.com/viczy/libTencent.git'
